@@ -1,5 +1,5 @@
 // conecting to nodeserver/index.js api who runs on localhost:8000
-const socket = io(`http://localhost:8000/`);
+const socket = io(`https://shake-hand-zzaw.vercel.app/`);
 // creating javascript variable selectin dom elements 
 const form = document.getElementById('sentCon')
 const messageInput = document.getElementById('messageinp')
