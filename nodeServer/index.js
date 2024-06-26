@@ -1,7 +1,7 @@
 // socket Connection
 const io = require(`socket.io`)(5000, {
     cors:{
-        origin:`.vercel.app`
+        origin:`https://shake-hand-pxiw.vercel.app/`
     }
 });
 const users={};
