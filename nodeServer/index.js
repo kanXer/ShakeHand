@@ -1,7 +1,7 @@
 // socket Connection
 const io = require(`socket.io`)(5000, {
     cors:{
-        origin:`*`
+        origin:`.vercel.app`
     }
 });
 const users={};
